@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Documentation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS.css">
+  </head>
+  <body>
+    <center>
+    <ul>
+      <li><b><a href="index.html">Documentation</a></b></li>
+      <!--<li><a href="C:/Users/LAPTOP/Desktop/ArduMate Docs/Guides/Guides.html">Guides</a></li>-->
+      <li><a href="C:/Users/LAPTOP/Desktop/ArduMate Docs/FAQs/FAQs.html">FAQs</a></li>
+    </ul>
+  </center>
+
+    <hr>
+    <br>
+
+    <ul>
+      <li class="none1"><a href="index.html">Pins</a>
+      <li class="none1"><a href="control.html">Control</a>
+      <li class="none1"><a href="Variable.html"><b>Variable</b></a>
+        <li class="none1"><a href="display.html">Display</a>
+    </ul>
+
+
+  <div class="grid-item">
+    <h2>Blocks Documentation</h2>
+
+    <br>
+
+    <h3 class="ht">Initialize/Set Variable</h3>
+    <p>Initializes the variable to the set value. Deleting this block will also delete the created variable </p>
+    <img src="Images/variable.jpeg" height="110px" width="333px">
+    <table>
+      <thead>
+        <tr>
+        <th colspan="2">Parameters</th>
+        </tr>
+      </thead>
+      <tr>
+        <td class="left">value</td>
+        <td class="right">
+          <div class="container-hor">
+            <div>
+              <p class="bool">boolean</p>
+            </div>
+           <div>
+             <p class="integer">Integer</p>
+           </div>
+           <div>
+             <p class="round">H/L</p>
+           </div>
+           <div>
+             <p class="string">String</p>
+           </div>
+           <div>
+             <p class="variable">Variable</p>
+           </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <br>
+
+    <h3 class="ht">Set Variable</h3>
+    <p>Set/Change the variable value to the set value </p>
+    <img src="Images/sv.jpeg" height="90px" width="335px">
+    <table>
+      <thead>
+        <tr>
+        <th colspan="2">Parameters</th>
+        </tr>
+      </thead>
+      <tr>
+        <td class="left">value</td>
+        <td class="right">
+          <div class="container-hor">
+            <div>
+              <p class="bool">boolean</p>
+            </div>
+           <div>
+             <p class="integer">Integer</p>
+           </div>
+           <div>
+             <p class="round">H/L</p>
+           </div>
+           <div>
+             <p class="string">String</p>
+           </div>
+           <div>
+             <p class="variable">Variable</p>
+           </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+
+    <br>
+
+    <h3 class="ht">Add item block</h3>
+    <p>Adds an item to a list/array at the end of the array</p>
+    <img src="Images/aitem.jpeg" height="150px" width="311px">
+    <table>
+      <thead>
+        <tr>
+        <th colspan="2">Parameters</th>
+        </tr>
+      </thead>
+      <tr>
+        <<td class="left">list</td>
+        <td class="right">
+          <p class="variable">Variable</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="left">item</td>
+        <td class="right">
+          <div class="container-hor">
+            <div>
+              <p class="bool">boolean</p>
+            </div>
+           <div>
+             <p class="integer">Integer</p>
+           </div>
+           <div>
+             <p class="round">H/L</p>
+           </div>
+           <div>
+             <p class="string">String</p>
+           </div>
+           <div>
+             <p class="variable">Variable</p>
+           </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+
+        <br>
+
+        <h3 class="ht">Insert item block</h3>
+        <p>Inserts an item to a list/array at the given index. Index starts at 0/</p>
+        <img src="Images/iitem.jpeg" height="150px" width="283px">
+        <table>
+          <thead>
+            <tr>
+            <th colspan="2">Parameters</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="left">list</td>
+            <td class="right">
+              <p class="variable">Variable</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">index</td>
+            <td class="right">
+              <p class="integer">Integer</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">item</td>
+            <td class="right">
+              <div class="container-hor">
+                <div>
+                  <p class="bool">boolean</p>
+                </div>
+               <div>
+                 <p class="integer">Integer</p>
+               </div>
+               <div>
+                 <p class="round">H/L</p>
+               </div>
+               <div>
+                 <p class="string">String</p>
+               </div>
+               <div>
+                 <p class="variable">Variable</p>
+               </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <br>
+
+        <h3 class="ht">Remove item block</h3>
+        <p>Removes an item from a list based on the index number. Index starts with 0.</p>
+        <img src="Images/ritem.jpeg" height="130px" width="336px">
+        <table>
+          <thead>
+            <tr>
+            <th colspan="2">Parameters</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="left">list</td>
+            <td class="right">
+            <p class="variable">Variable</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">index</td>
+            <td class="right">
+            <p class="integer">Integer</p>
+            </td>
+          </tr>
+        </table>
+
+        <br>
+
+        <h3 class="ht">Set value for key</h3>
+        <p>Creates/Sets a value for a key in the dictonary variable</p>
+        <img src="Images/value.jpeg" height="150px" width="273px">
+        <table>
+          <thead>
+            <tr>
+            <th colspan="2">Parameters</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="left">key</td>
+            <td class="right">
+              <p class="string">String</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">dictonary</td>
+            <td class="right">
+              <p class="variable">Variable</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">to</td>
+            <td class="right">
+              <div class="container-hor">
+                <div>
+                  <p class="bool">boolean</p>
+                </div>
+               <div>
+                 <p class="integer">Integer</p>
+               </div>
+               <div>
+                 <p class="round">H/L</p>
+               </div>
+               <div>
+                 <p class="string">String</p>
+               </div>
+               <div>
+                 <p class="variable">Variable</p>
+               </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <br>
+
+        <h3 class="ht">Remove key block</h3>
+        <p>Removes the value and key from the dictonary variable</p>
+        <img src="Images/rvalue.jpeg" height="150px" width="355px">
+        <table>
+          <thead>
+            <tr>
+            <th colspan="2">Parameters</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="left">key</td>
+            <td class="right">
+            <p class="string">String</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">dictonary</td>
+            <td class="right">
+            <p class="variable">Variable</p>
+            </td>
+          </tr>
+        </table>
+
+    </div>
+
+    <br>
+
+
+</body>
+</html>
